@@ -1,0 +1,21 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/opportunato/exercises.git",
+  "author": "opportunato <ryu.gordeyev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha 'src/**/*.spec.js' --require babel-polyfill --compilers js:babel-register"
+  }
+}
